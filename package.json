@@ -14,7 +14,7 @@
   "files": ["dist"],
   "scripts": {
     "build": "npm run clean && npm run compile",
-    "compile": "tsc",
+    "compile": "tsc --build --force",
     "clean": "rimraf dist"
   },
   "devDependencies": {
