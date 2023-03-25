@@ -1,0 +1,23 @@
+{
+  "name": "@johannesschaffer/utils",
+  "version": "1.0.5",
+  "description": "Utils",
+  "author": "Johannes Schaffer",
+  "license": "ISC",
+  "exports": {
+    "./array": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "compile": "tsc",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.7",
+    "rimraf": "^4.4.1",
+    "typescript": "latest"
+  }
+}
