@@ -1,15 +1,14 @@
 {
   "name": "@johannesschaffer/utils",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "Utils",
   "author": "Johannes Schaffer",
   "license": "ISC",
   "exports": {
-    "./array": "./dist/index.js"
+    "./arrays": "./dist/arrays/index.js",
+    "./errors": "./dist/errors/index.js"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "npm run clean && npm run compile",
     "compile": "tsc",
