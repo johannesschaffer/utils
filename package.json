@@ -5,8 +5,11 @@
   "author": "Johannes Schaffer",
   "license": "ISC",
   "exports": {
+    "./strings": "./dist/strings/index.js",
     "./arrays": "./dist/arrays/index.js",
-    "./errors": "./dist/errors/index.js"
+    "./objects": "./dist/objects/index.js",
+    "./errors": "./dist/errors/index.js",
+    "./net": "./dist/net/index.js"
   },
   "files": ["dist"],
   "scripts": {
